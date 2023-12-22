@@ -44,13 +44,11 @@ const validator = () => {
       message.rate = 0.7
       message.pitch = 0.7
       speechSynthesis.speak(message)
-    } else {
-      console.error("SpeechSynthesis not supported in this browser.")
-    }
+    } 
     
   } catch (error) {
     console.error("An error occurred:", error.message)
-    alert("Please try again")
+    alert("Speech Synthesis not supported in your browser, Please try again")
   }
 }
 
