@@ -30,7 +30,7 @@ const validator = () => {
         count = 0
       }
 
-      if (count == 5) {
+      if (count == 6) {
         alert("Word is not pronounceable, don't input gibberish!")
         return
       }
@@ -41,8 +41,8 @@ const validator = () => {
       let message = new SpeechSynthesisUtterance()
       message.text = word
       message.voice = speechSynthesis.getVoices()[0]
-      message.rate = 0.5
-      message.pitch = 0.7
+      message.rate = 0.4
+      message.pitch = 0.6
       speechSynthesis.speak(message)
     } 
     
