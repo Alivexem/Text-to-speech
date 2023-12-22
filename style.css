@@ -7,13 +7,13 @@ body{
 
 
 #des{
-    background-color:#6699FF ;
+    background-color:black ;
     text-align: center;
     padding: 7px 7px 14px 7px;
     border-radius: 13px 13px 0 0;
     margin-top: 140px;
     font-size: 14px;
-    color: black;
+    color: white;
 }
 .game2{
     border-radius: 10% 20% 6% 3%;
