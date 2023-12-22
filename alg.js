@@ -41,8 +41,8 @@ const validator = () => {
       let message = new SpeechSynthesisUtterance()
       message.text = word
       message.voice = speechSynthesis.getVoices()[0]
-      message.rate = 0.4
-      message.pitch = 0.6
+      message.rate = 0.5
+      message.pitch = 0.7
       speechSynthesis.speak(message)
     } 
     
