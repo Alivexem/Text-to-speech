@@ -13,8 +13,8 @@ const validator = () => {
       return
     }
     
-    if (word.trim().length > 25) {
-      alert("Please input a proper English word")
+    if (word.trim().length > 30) {
+      alert("Please input words and not sentences!")
       return
     }
     
@@ -31,7 +31,7 @@ const validator = () => {
       }
 
       if (count == 5) {
-        alert("Word is not pronounceable")
+        alert("Word is not pronounceable, don't input gibberish!")
         return
       }
     }
