@@ -1,6 +1,6 @@
 body{
     background-color: #2C2C2C;
-    padding: 2px 7px 0px 7px;
+    padding: 0 7px 2px 7px;
     font-family: 'Roboto', sans-serif;
     padding: 8px;
 }
@@ -11,10 +11,11 @@ body{
     text-align: center;
     padding: 7px 7px 14px 7px;
     border-radius: 13px 13px 0 0;
-    margin-top: 140px;
+    margin-top: 100px;
     font-size: 12px;
     color: white;
     border: 1px solid white;
+    position: fixed;
 }
 .game2{
     border-radius: 10% 20% 6% 3%;
@@ -56,4 +57,37 @@ body{
     margin-top: 32px;
     border: none;
     padding: 5px 5px 5px 10px;
+}
+
+#speedwrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+
+#speedwrap p{
+    color:#d9adb5;
+  
+}
+
+.speed{
+    display:flex;
+    flex-direction: column;
+}
+#pitchwrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#pitchwrap p{
+    color: #d9adb5;
+}
+
+.pitch{
+    display:flex;
+    flex-direction: column;
+}
+#text{
+    margin-top: 25px;
 }
