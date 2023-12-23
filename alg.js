@@ -49,7 +49,6 @@ const validator = () => {
               ratespeed = parseFloat(item.value)
           }
       })
-      console.log(typeof(ratespeed))
       message.rate = ratespeed
       
       let rate;
