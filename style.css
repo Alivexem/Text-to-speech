@@ -89,5 +89,8 @@ body{
     flex-direction: column;
 }
 #text{
-    margin-top: 25px;
+    margin-top: 65px;
+}
+#sec{
+    margin-top: 65px;
 }
