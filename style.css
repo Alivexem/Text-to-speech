@@ -1,9 +1,9 @@
-body{
+body {
     background-color: #2C2C2C;
-    padding: 0 7px 2px 7px;
+    padding: 0 7px 2px 7px; 
     font-family: 'Roboto', sans-serif;
-    padding: 8px;
 }
+
 
 
 #des{
@@ -12,8 +12,8 @@ body{
     padding: 20px;
     border-radius: 13px 13px 0 0;
     margin-top: 100px;
-    height: 70px;
-    font-size: 12px;
+    height: 180px;
+    font-size: 15px;
     color: white;
     margin: 120px -10px -10px -10px;
 }
@@ -26,6 +26,7 @@ body{
 
 #wrap{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -43,7 +44,8 @@ body{
     height: 29px;
     font-weight: bold;
     border:none;
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 #btn:active{
@@ -59,38 +61,19 @@ body{
     padding: 5px 5px 5px 10px;
 }
 
-#speedwrap{
+.speedwrap{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   
+
 }
 
-#speedwrap p{
+.speedwrap p{
     color:#d9adb5;
-  
+
+}
+#sec, #text{
+    margin-top: 75px;
 }
 
-.speed{
-    display:flex;
-    flex-direction: column;
-}
-#pitchwrap{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-#pitchwrap p{
-    color: #d9adb5;
-}
-
-.pitch{
-    display:flex;
-    flex-direction: column;
-}
-#text{
-    margin-top: 65px;
-}
-#sec{
-    margin-top: 65px;
-}
