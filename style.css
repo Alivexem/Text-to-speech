@@ -19,9 +19,11 @@ body {
 }
 .game2{
     border-radius: 10% 20% 6% 3%;
+    border: 0.5px solid white;
 }
 .game1{
     border-radius: 20% 10% 6% 3%;
+    border: 0.5px solid white;
 }
 
 #wrap{
