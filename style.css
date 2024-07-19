@@ -108,12 +108,12 @@
 .game2{
     border-radius: 10% 20% 6% 3%;
     border: 0.3px solid gray;
-    margin-right: 300px;
+    margin-right: 350px;
 }
 .game1{
     border-radius: 20% 10% 6% 3%;
     border: 0.3px solid gray;
-    margin-left: 300px;
+    margin-left: 350px;
 }
 
 #wrap{
